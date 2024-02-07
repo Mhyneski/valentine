@@ -48,7 +48,7 @@ const server = http.createServer((req, res) => {
     contentType = "image/jpg";
     break;
  }
-
+//sdads
  // read file
   fs.readFile(filePath, (err, content) => {
     if(err) {
