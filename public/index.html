@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>I LOVE YOU BABY</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/index.css">
+  </head>
+  <body>
+    <h1>WILL YOU BE MY VALENTINES NEFRETIRI MANALO!??</h1>
+    <div class="container">
+      <button id="yes-button" onclick="myFunction(), kalma()">YES</button>
+      <button id="no-button" onclick="anotherFunction()">NO</button>
+    </div>
+    <p>I love you so much baby wag ka po magalit hah sa ginawa ko hehe, pasensya na baby if madami tayo problems right now but i will make bawi i promise baby ko</p>
+   
+    <img id="image" src="" alt="baby ko" style="width:500px;height:500px; display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;">
+    <audio id="kalma">
+      <source src="./audio/Baby Kalma Dance Challenge Lagabog - Skusta Clee  Tiktok Compilation.mp3" type="audio/mpeg">
+      <source src="./audio/Baby-Kalma-Dance-Challenge-Lagabog-Skusta-Clee-Tiktok-Compilation.ogg" type="audio/ogg">
+  </audio>
+
+<script>
+    function kalma() {
+      document.getElementById('kalma').play();
+    }
+
+    function myFunction() {
+      const button = document.getElementById('yes-button');
+      button.style.height = '50px';
+      button.style.width = '50px';
+      document.getElementById("image").src = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTd1eXJvYmZ4cTN6bHk3b2pncnI4d24yazVnb3A1OWkzNXduZ284MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Vi0Ws3t4JSLOgdkaBq/giphy.gif";
+      
+    }
+
+    function anotherFunction() {
+      const button = document.getElementById('yes-button');
+      button.style.height = '400px';
+      button.style.width = '400px';
+    }
+    </script>
+  </body>
+</html>
